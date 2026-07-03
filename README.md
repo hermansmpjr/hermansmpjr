@@ -155,7 +155,7 @@ Purpose-built patterns for governed agent orchestration and intelligent document
 
 ---
 
-> Building intelligent agents, parsing systems, and improvement workflows that help application engineers turn complex industrial work into structured, reviewable, and scalable outcomes.
+> I’ll gladly invest hours or days to save seconds or minutes every day — because those savings compound over time.
 
 ---
 
