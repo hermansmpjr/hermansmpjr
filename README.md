@@ -114,12 +114,13 @@ I support engineered industrial automation work involving crane and hoist contro
 - Multi-LLM workflow experimentation
 
 ### Industrial Automation
+- PLC based overhead crane motion control
 - Magnetek crane and hoist systems
 - VFD-based motion control
 - HMI and diagnostics
-- Safety interlocks
+- Safety interface
 - Automation sequence support
-- Engineered material-handling quote support
+- Engineered material-handling proposal generation
 
 ---
 
