@@ -11,7 +11,7 @@ A major part of this work is helping build the **Better Way Builders** community
 
 ## I.D.E.A. — Think Differently
 
-![I.D.E.A. — Iterate. Demonstrate. Educate. Automate.](https://raw.githubusercontent.com/hermansmpjr/hermansmpjr/main/assets/idea-think-differently.png)
+![I.D.E.A. — Iterate. Demonstrate. Educate. Automate.](https://raw.githubusercontent.com/hermansmpjr/hermansmpjr/main/IDEA%20-%20Think%20Differently.png)
 
 **Iterate. Demonstrate. Educate. Automate.**
 
