@@ -48,7 +48,7 @@ Current architecture patterns include:
 - Governor-led routing and review
 - Agent factory support for repeatable agent creation
 - Knowledge discovery and source mapping
-- Fleet documentation and controlled publication
+- Controlled documentation and publication
 - Agent instruction libraries, runbooks, and reusable process specs
 
 ### Document Intelligence & Parsing Pipelines
@@ -142,14 +142,14 @@ Purpose-built patterns for governed agent orchestration and intelligent document
 
 ## Key Repositories
 
-### Multi-Agent Fleet Family
-- **MAG-Fleet** — Production-oriented fleet environment
-- **MAG-FLEET-DEV** — Validation and testing sandbox
-- **MAG-Fleet-Meta** — Governance, routing, documentation, and agent-factory layer
+### Multi-Agent Systems & Governance
+- [Multi-Agent Production Environment](https://github.com/hermansmpjr/MAG-Fleet)
+- [Validation & Testing Sandbox](https://github.com/hermansmpjr/MAG-FLEET-DEV)
+- [Governance & Agent Factory Layer](https://github.com/hermansmpjr/MAG-Fleet-Meta)
 
 ### Featured Work
-- **MAG-Auto-Parse** — RFQ/specification parsing engine centered on evidence preservation, structured JSON, Copilot briefs, and run summaries
-- **MAG-Fleet governance docs** — Documentation standards, registry mapping, routing rules, runbooks, process specs, and agent passports
+- **Document Intelligence Pipeline** — RFQ/specification parsing engine centered on evidence preservation, structured JSON, engineer briefs, and run summaries
+- **Multi-Agent Governance Documentation** — Documentation standards, registry mapping, routing rules, runbooks, process specs, and agent passports
 - **Better Way Builders / I.D.E.A.** — Community and methodology for employee-led improvement, experimentation, documentation, and automation
 - **Grok + Copilot Studio Integration** — Patterns and documentation for using xAI Grok with Microsoft Copilot Studio in industrial automation contexts
 
