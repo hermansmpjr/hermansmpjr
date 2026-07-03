@@ -155,7 +155,7 @@ Purpose-built patterns for governed agent orchestration and intelligent document
 
 ---
 
-> I’ll gladly invest hours or days to save seconds or minutes every day — because those savings compound over time.
+> I'll gladly invest hours or days to save seconds or minutes, because those small gains compound over time. Time is the only resource we can never recover once it's spent.
 
 ---
 
