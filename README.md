@@ -9,16 +9,9 @@ I develop practical AI and automation systems that help industrial application e
 
 A major part of this work is helping build the **Better Way Builders** community — a shared space where employees experiment with tools like Copilot and Power Automate, share real use cases, and grow small ideas into better, scalable ways of working. The community is grounded in the **I.D.E.A.** model.
 
-Current work centers on four connected areas:
-
-- **MAG-Auto-Parse** (`unified_parser.py`): A Python-based document-intelligence pipeline for RFQ and specification intake, focused on AE/Copilot briefs, structured evidence-backed JSON, and run summaries.
-- **MAG-Fleet**: A governed multi-agent architecture for Copilot Studio environments, with clear routing, documentation standards, source discovery, and agent build support.
-- **Better Way Builders / I.D.E.A.**: A practical improvement community and methodology that helps employees identify opportunities, test ideas, document what works, and scale useful automations.
-- **Copilot Studio + Power Platform integration**: Agent and workflow patterns that connect Microsoft 365, SharePoint, Power Automate, Power BI, Dataverse, and structured engineering documentation into cohesive quote and automation workflows.
-
 ## I.D.E.A. — Think Differently
 
-![I.D.E.A. — Iterate. Demonstrate. Educate. Automate.](assets/idea-think-differently.png)
+![I.D.E.A. — Iterate. Demonstrate. Educate. Automate.](https://raw.githubusercontent.com/hermansmpjr/hermansmpjr/main/assets/idea-think-differently.png)
 
 **Iterate. Demonstrate. Educate. Automate.**
 
