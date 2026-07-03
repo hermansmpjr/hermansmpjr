@@ -1,4 +1,4 @@
-# Hi there 👋, I'm Michael Hermans
+# Hi there 👋, I'm Mike Hermans
 
 **Senior Engineer, Applications @ Magnetek, a Columbus McKinnon company**
 
