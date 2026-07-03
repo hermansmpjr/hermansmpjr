@@ -1,13 +1,13 @@
 # Hi there 👋, I'm Michael Hermans
 
-**Application Engineer @ Magnetek, a Columbus McKinnon company**  
+**Senior Engineer, Applications @ Magnetek, a Columbus McKinnon company**  
 Building production-oriented AI agent systems, RFQ/specification parsing workflows, and practical automation communities for industrial application engineering.
 
 ## About
 
 I develop practical AI and automation systems that help industrial application engineers turn complex customer RFQs, specifications, drawings, and quote-support documents into structured, evidence-backed outputs. These outputs accelerate quoting, technical review, compliance documentation, proposal preparation, and repeatable process improvement.
 
-A major part of this work is helping build the **Better Way Builders** community — a shared space where employees experiment with tools like Copilot and Power Automate, share real use cases, and grow small ideas into better, scalable ways of working. The community is grounded in the **I.D.E.A.** model: **Innovate, Demonstrate, Educate, Automate** (also expressed as **Iterate, Demonstrate, Educate, Automate**).
+A major part of this work is helping build the **Better Way Builders** community — a shared space where employees experiment with tools like Copilot and Power Automate, share real use cases, and grow small ideas into better, scalable ways of working. The community is grounded in the **I.D.E.A.** model.
 
 Current work centers on four connected areas:
 
@@ -15,6 +15,19 @@ Current work centers on four connected areas:
 - **MAG-Fleet**: A governed multi-agent architecture for Copilot Studio environments, with clear routing, documentation standards, source discovery, and agent build support.
 - **Better Way Builders / I.D.E.A.**: A practical improvement community and methodology that helps employees identify opportunities, test ideas, document what works, and scale useful automations.
 - **Copilot Studio + Power Platform integration**: Agent and workflow patterns that connect Microsoft 365, SharePoint, Power Automate, Power BI, Dataverse, and structured engineering documentation into cohesive quote and automation workflows.
+
+## I.D.E.A. — Think Differently
+
+![I.D.E.A. — Iterate. Demonstrate. Educate. Automate.](assets/idea-think-differently.png)
+
+**Iterate. Demonstrate. Educate. Automate.**
+
+The I.D.E.A. model is the core operating rhythm for the Better Way Builders community:
+
+- **Iterate** — Identify an opportunity or hypothesis for improvement
+- **Demonstrate** — Experiment with Copilot, Power Automate, or other tools to test the idea
+- **Educate** — Document and share what works
+- **Automate** — Scale the solution when it is ready
 
 ## Current Focus
 
@@ -77,15 +90,6 @@ Current work centers on four connected areas:
 
 ### Better Way Builders
 A practical improvement community focused on helping employees share ideas, experiment with Copilot and Power Automate, learn from real use cases, and scale better ways of working. It supports a culture of curiosity, shared learning, and practical automation.
-
-### I.D.E.A. Model
-The core improvement loop:
-- **Innovate** — Identify an opportunity or hypothesis for improvement
-- **Demonstrate** — Experiment with Copilot, Power Automate, or other tools to test the idea
-- **Educate** — Document and share what works
-- **Automate** — Scale the solution when it is ready
-
-(Also used in the form **Iterate → Demonstrate → Educate → Automate**.)
 
 ### Idea → Sustaining a Deployed Idea
 A ratified workflow for moving ideas into documented, governed, and sustained operation. GitHub serves as the canonical source of truth, with controlled publication to the Better Way Builders SharePoint library and MAG-Fleet Process Library.
