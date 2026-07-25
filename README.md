@@ -36,7 +36,7 @@ Key areas:
 - Power Platform workflow automation (Power Automate, Power BI, Dataverse, SharePoint, Teams)
 - Reusable Skills, instruction libraries, handoff contracts, and agent-authoring toolkits
 - Salesforce-connected quote workflow support and SharePoint case/folder automation
-- Internal communities of practice and governed idea-to-sustainment processes
+- Continuous improvement communities and governed idea-to-sustainment processes
 
 ---
 
@@ -59,28 +59,26 @@ The same cycle underpins the Event-Horizon framework and the agent-fleet-os patt
 
 ## Current Focus Areas
 
-### Two-Layer Multi-Agent Architecture
+### Governed Multi-Agent Architecture
 
-I maintain a governed multi-agent system with a clear separation of concerns:
+I design and maintain production multi-agent systems with a clear separation between runtime work and meta-level governance:
 
-**Production Runtime (MAG-Fleet)**  
-The agents that perform engineering and quoting work:
-- **MAG-AutoPilot-AE-CS** — RFQ / application-engineering orchestrator (intake readiness, source diagnostics, engineering packet extraction, BOM/pricing support, compliance matrix, proposal export, Salesforce case lookup, etc.)
-- **MAG-Electrical-Drawing-Interpreter** — Source-grounded extraction from electrical/crane drawings and motor data sheets (includes a dedicated Python OCR tool)
-- **MAG-Compliance-Documenter** — Internal compliance & traceability reporting
-- **MAG-Fleet-Documenter** & **MAG-Dev-Architect** — Documentation and architecture/routing parent for the runtime layer
+**Runtime agents** handle the actual engineering and quoting work:
+- RFQ / application-engineering orchestration (intake readiness, source diagnostics, engineering packet extraction, BOM/pricing support, compliance matrices, proposal export, CRM case lookup)
+- Electrical and mechanical drawing interpretation with source-grounded extraction and OCR tooling
+- Compliance and traceability reporting
+- Documentation and architecture/routing parent agents
 
-**Meta / Control Plane (MAG-Fleet-Meta)**  
-The agents that govern, generate, and improve the fleet:
-- **MAG-Fleet-Governor** — Strategic oversight, routing decisions, hard rules, promotion authority
-- **MAG-Agent-Factory** — Programmatic creation of new governed agents
-- **MAG-Knowledge-Discovery** & **MAG-Knowledge-Mapper** — Source discovery, naming, overlap detection, connect-vs-tool classification
-- **MAG-Agent-Intake-Guide** — Published user-facing intake → structured handoff packets
-- **MAG-Self-Evolution-Monitor** — Continuous propose-not-execute evolution monitoring
-- **MAG-PA-Flow-Engineer** — Checksum-gated Power Automate CreateFlow/UpdateFlow engineering child
-- **MAG-Fleet-Architect** & **MAG-Fleet-Meta-Documenter** — Design advisory and meta-layer documentation
+**Meta / control-plane agents** govern, generate, and improve the fleet:
+- Strategic oversight, routing decisions, hard rules, and promotion authority
+- Programmatic agent creation (agent factory)
+- Knowledge-source discovery, naming, overlap detection, and connect-vs-tool classification
+- Structured intake that produces handoff packets
+- Continuous propose-not-execute evolution monitoring
+- Governed Power Automate flow engineering (checksum-gated create/update)
+- Design advisory and documentation specialists
 
-The architecture emphasizes source discipline, explicit handoff contracts (ChildResult, IntakeHandoffPacket, EvolutionProposalPacket, etc.), approval-gated writes, and self-test alignment.
+The architecture emphasizes source discipline, explicit handoff contracts, approval-gated writes, self-test alignment, and clear responsibility boundaries between agents.
 
 ### Document Intelligence & Parsing Pipelines
 Python-centered pipelines that convert customer RFQs and technical specifications into structured, evidence-backed artifacts:
@@ -90,18 +88,18 @@ Python-centered pipelines that convert customer RFQs and technical specification
 - Missing-input and conflict reports
 - Operational run summaries
 
-Emphasis remains on deterministic structure, provenance, and clean handoff to downstream agents or human reviewers (MAG-Auto-Parse methodology).
+Emphasis is on deterministic structure, provenance, and clean handoff to downstream agents or human reviewers.
 
 ### Power Platform & Quote Workflow Automation
-A suite of production Power Automate flows that connect Salesforce cases, SharePoint quote folders, Teams notifications, attachment handling, case-owner updates, and notebook generation. Additional governed tooling covers flow lifecycle, payload serialization guards, and inventory/registry management.
+Production Power Automate flows that connect CRM cases, SharePoint quote folders, Teams notifications, attachment handling, case-owner updates, and notebook generation. Supporting tooling covers flow lifecycle management, payload serialization guards, and inventory/registry practices.
 
 ### Skills & Authoring Toolkits
 Reusable Copilot Studio Skills (and the meta-toolkit that authors them) for:
 - Skill, instruction, knowledge-source, and connected-agent description authoring
 - Copy-ready output formatting
-- Child-result integration, deliverable transport, Salesforce case source lookup, and more
+- Child-result integration, deliverable transport, and source lookup patterns
 
-These live in the fleet repos and are designed for reliable generative orchestration.
+Designed for reliable generative orchestration and consistent agent behavior.
 
 ### Industrial Automation Domain
 Support for engineered material-handling applications involving drives and automation products, VFD motion control, HMI concepts, safety interlocks, diagnostics, and proposal generation for crane and hoist systems.
@@ -140,8 +138,8 @@ Salesforce · AutoCAD · Visio · VHDL · C/C++ · MATLAB · Multisim · Embedde
 | Repository | Purpose |
 |---|---|
 | [hermansmpjr](https://github.com/hermansmpjr/hermansmpjr) | This profile |
-| [MAG-Fleet](https://github.com/hermansmpjr/MAG-Fleet) | Production runtime — agent instructions, skills, routing, Power Automate inventory |
-| [MAG-Fleet-Meta](https://github.com/hermansmpjr/MAG-Fleet-Meta) | Meta / control plane — Governor, Factory, Knowledge pipeline, governance, evolution |
+| [MAG-Fleet](https://github.com/hermansmpjr/MAG-Fleet) | Production runtime — agent instructions, skills, routing, automation inventory |
+| [MAG-Fleet-Meta](https://github.com/hermansmpjr/MAG-Fleet-Meta) | Meta / control plane — governance, agent factory, knowledge pipeline, evolution |
 | [MAG-FLEET-DEV](https://github.com/hermansmpjr/MAG-FLEET-DEV) | Staging / validation sandbox |
 | [event-horizon](https://github.com/hermansmpjr/event-horizon) | IDEA cycle framework (platform- & domain-neutral) |
 | [agent-fleet-os](https://github.com/hermansmpjr/agent-fleet-os) | Platform-neutral multi-agent OS (schemas, roles, validators) |
