@@ -53,7 +53,7 @@ I.D.E.A. is the operating rhythm I use for continuous improvement: experiment wi
 - **Educate** — Document what worked, what failed, and what others can reuse
 - **Automate** — Scale the solution when it is reliable, useful, and ready for broader adoption
 
-The same cycle underpins the Event-Horizon framework and the agent-fleet-os patterns.
+The same cycle underpins the Event-Horizon framework.
 
 ---
 
@@ -109,8 +109,6 @@ Support for engineered material-handling applications involving drives and autom
 ## Frameworks & Supporting Work
 
 - **Event-Horizon IDEA** — Platform- and domain-neutral framework for building, governing, and evolving AI agent systems using the IDEA cycle (Innovate → Develop → Evaluate → Automate). Provides portable patterns, governance, agent archetypes, and handoff contracts.
-- **agent-fleet-os** — Implementable platform-neutral OS (schemas, role archetypes, validators, pipelines, adapters for Copilot Studio / Grok / others).
-- **Grok + Copilot Studio integration patterns** — Documentation and guides for using xAI Grok alongside Microsoft Copilot Studio in industrial automation contexts.
 
 ---
 
@@ -123,7 +121,7 @@ Python · PowerShell · JSON Schema · Markdown · Structured output contracts �
 Copilot Studio · Power Automate · Power BI · Dataverse · SharePoint · Teams · Outlook · Loop
 
 **AI & Document Intelligence**  
-Multi-agent orchestration · Evidence-backed extraction · Prompt & instruction design · RFQ/spec parsing · Compliance matrix support · Multi-LLM experimentation (including Grok)
+Multi-agent orchestration · Evidence-backed extraction · Prompt & instruction design · RFQ/spec parsing · Compliance matrix support · Multi-LLM experimentation
 
 **Industrial Automation**  
 PLC-based overhead crane motion control · VFD motion control · HMI & diagnostics · Safety interfaces · Engineered material-handling proposals
@@ -142,8 +140,6 @@ Salesforce · AutoCAD · Visio · VHDL · C/C++ · MATLAB · Multisim · Embedde
 | [MAG-Fleet-Meta](https://github.com/hermansmpjr/MAG-Fleet-Meta) | Meta / control plane — governance, agent factory, knowledge pipeline, evolution |
 | [MAG-FLEET-DEV](https://github.com/hermansmpjr/MAG-FLEET-DEV) | Staging / validation sandbox |
 | [event-horizon](https://github.com/hermansmpjr/event-horizon) | IDEA cycle framework (platform- & domain-neutral) |
-| [agent-fleet-os](https://github.com/hermansmpjr/agent-fleet-os) | Platform-neutral multi-agent OS (schemas, roles, validators) |
-| [grok-copilot-studio-integration](https://github.com/hermansmpjr/grok-copilot-studio-integration) | Grok ↔ Copilot Studio integration patterns |
 
 ---
 
