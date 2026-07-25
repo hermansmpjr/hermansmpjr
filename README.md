@@ -1,12 +1,65 @@
 # Hi there 👋, I'm Mike Hermans
 
-**Senior Application Engineer @ Magnetek (Columbus McKinnon)**
+**Senior Application Engineer @ Magnetek, a Columbus McKinnon Company**  
+Promoted April 2026 · Reporting to Dave Tucker
 
-I design and operate production multi-agent systems, document-intelligence pipelines, and Power Platform automation that turn complex industrial RFQs, specifications, drawings, and quote packages into structured, evidence-backed work for application engineers.
+I design and operate production multi-agent systems, document-intelligence pipelines, and Power Platform automation that turn complex industrial RFQs, specifications, drawings, and quote packages into structured, evidence-backed work for application engineers and the broader sales/engineering organization.
 
 ---
 
-## What I Build
+## Professional Summary
+
+Electrical engineer with progressive experience in application engineering and sales support for industrial automation and material-handling systems. Currently leading the design and governance of multi-agent AI systems and intelligent automation workflows that accelerate quoting, improve source discipline, and scale process improvements across Magnetek / Columbus McKinnon.
+
+**Core strengths**
+- Application engineering and technical sales support for crane & hoist control systems, VFDs, and engineered material-handling solutions
+- End-to-end RFQ-to-proposal workflows (intake, source diagnostics, engineering packets, compliance, BOM/pricing support, proposal generation)
+- Production multi-agent orchestration in Microsoft Copilot Studio (runtime fleet + meta/control plane)
+- Power Platform automation (Power Automate, Power BI, Dataverse, SharePoint, Teams) tightly integrated with Salesforce
+- Document intelligence pipelines with evidence preservation and structured outputs
+- Internal process improvement communities and governed idea-to-sustainment methodologies
+
+---
+
+## Experience
+
+**Senior Application Engineer** — Magnetek / Columbus McKinnon  
+*April 2026 – Present*
+
+- Own and evolve the governed multi-agent fleet (MAG-Fleet production runtime + MAG-Fleet-Meta control plane) used for RFQ intake, document intelligence, electrical drawing extraction, compliance reporting, and quote support
+- Design agent instructions, Skills, handoff contracts, knowledge-source boundaries, and routing logic so generative orchestration remains reliable and auditable
+- Build and maintain Power Automate flows that connect Salesforce cases to SharePoint quote folders, Teams notifications, attachment handling, and case-owner updates
+- Drive Better Way Builders / I.D.E.A. process-improvement community and the governed idea-to-sustainment workflow
+- Continue core application-engineering responsibilities: complex quoting, technical customer support, proposal development, and cross-functional project coordination for engineered automation systems
+
+**Automation Sales Engineer / Sales Application Engineer** — Columbus McKinnon / Magnetek  
+*September 2019 – April 2026*
+
+- Provided product quotations, technical application support, and order processing for Magnetek drives, controls, and material-handling solutions
+- Acted as technical liaison between customers, sales, and engineering; resolved application questions and ensured customer requirements were met
+- Developed Salesforce reporting and Power BI dashboards used in sales and order-entry processes
+- Coordinated engineered projects (scheduling, costing, resource management) to meet customer specifications and timelines
+- Mediated private-label development work (e.g., powerline carrier communication systems for crane-to-crane Ethernet)
+- Created and maintained customer training materials
+
+**Application Engineer** — Dynamic Ratings, Inc.  
+*January 2017 – September 2019*
+
+- Produced application designs compliant with customer requirements, regulatory standards, and internal design standards
+- Provided technical support to the sales team and direct technical phone support to customers
+- Supported strategic sales activities (lead development, competitive bid analysis, pricing solutions)
+
+---
+
+## Education
+
+**Bachelor of Science in Electrical Engineering** — May 2017  
+Milwaukee School of Engineering (MSOE) & Lübeck University of Applied Sciences (Germany)  
+Dual-degree exchange program (2015–2016). Senior design: home automated lighting system with smartphone control and learned lighting patterns.
+
+---
+
+## What I Build Today
 
 I work at the intersection of application engineering, industrial automation (crane & hoist control systems), Microsoft 365 / Power Platform, and applied multi-agent AI. The focus is practical impact: faster review cycles, stronger source discipline, fewer missed requirements, cleaner handoffs, and more repeatable quoting and process-improvement workflows.
 
@@ -109,6 +162,9 @@ Multi-agent orchestration · Evidence-backed extraction · Prompt & instruction 
 
 **Industrial Automation**  
 PLC-based overhead crane motion control · Magnetek crane & hoist systems · VFD motion control · HMI & diagnostics · Safety interfaces · Engineered material-handling proposals
+
+**Earlier tools & languages**  
+Salesforce · AutoCAD · Visio · VHDL · C/C++ · MATLAB · Multisim · Embedded systems
 
 ---
 
