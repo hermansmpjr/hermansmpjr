@@ -4,28 +4,6 @@ I design and operate production multi-agent systems, document-intelligence pipel
 
 ---
 
-## About Me
-
-Electrical engineer focused on the intersection of application engineering, industrial automation, and applied AI. I build governed multi-agent systems, intelligent document processing, and workflow automation that improve source discipline, accelerate review cycles, and make complex quoting and engineering work more repeatable.
-
-**Core strengths**
-- End-to-end RFQ-to-proposal workflows (intake, source diagnostics, engineering packets, compliance, BOM/pricing support, proposal generation)
-- Production multi-agent orchestration in Microsoft Copilot Studio (runtime fleet + meta/control plane)
-- Power Platform automation (Power Automate, Power BI, Dataverse, SharePoint, Teams) integrated with Salesforce
-- Document intelligence pipelines with evidence preservation and structured outputs
-- Process improvement communities and governed idea-to-sustainment methodologies
-- Application engineering and technical support for crane & hoist control systems, VFDs, and engineered material-handling solutions
-
----
-
-## Education
-
-**Bachelor of Science in Electrical Engineering** — May 2017  
-Milwaukee School of Engineering (MSOE) & Lübeck University of Applied Sciences (Germany)  
-Dual-degree exchange program (2015–2016). Senior design: home automated lighting system with smartphone control and learned lighting patterns.
-
----
-
 ## What I Build
 
 I work at the intersection of application engineering, industrial automation, Microsoft 365 / Power Platform, and applied multi-agent AI. The focus is practical impact: faster review cycles, stronger source discipline, fewer missed requirements, cleaner handoffs, and more repeatable quoting and process-improvement workflows.
@@ -144,6 +122,28 @@ Salesforce · AutoCAD · Visio · VHDL · C/C++ · MATLAB · Multisim · Embedde
 - **I.D.E.A. / Continuous Improvement** — Methodology for experimentation, documentation, and scaling practical improvements with Microsoft 365 and AI tools.
 - **Governed Idea-to-Sustainment Workflow** — Structured path from concept through documentation, validation, controlled publication, and sustained operation (GitHub as canonical source).
 - **Self-Improving Multi-Agent Fleet** — Agents that can propose, generate, and evolve other agents under strong governance, source discipline, and approval gates.
+
+---
+
+## About Me
+
+Electrical engineer focused on the intersection of application engineering, industrial automation, and applied AI. I build governed multi-agent systems, intelligent document processing, and workflow automation that improve source discipline, accelerate review cycles, and make complex quoting and engineering work more repeatable.
+
+**Core strengths**
+- End-to-end RFQ-to-proposal workflows (intake, source diagnostics, engineering packets, compliance, BOM/pricing support, proposal generation)
+- Production multi-agent orchestration in Microsoft Copilot Studio (runtime fleet + meta/control plane)
+- Power Platform automation (Power Automate, Power BI, Dataverse, SharePoint, Teams) integrated with Salesforce
+- Document intelligence pipelines with evidence preservation and structured outputs
+- Process improvement communities and governed idea-to-sustainment methodologies
+- Application engineering and technical support for crane & hoist control systems, VFDs, and engineered material-handling solutions
+
+---
+
+## Education
+
+**Bachelor of Science in Electrical Engineering** — May 2017  
+Milwaukee School of Engineering (MSOE) & Lübeck University of Applied Sciences (Germany)  
+Dual-degree exchange program (2015–2016). Senior design: home automated lighting system with smartphone control and learned lighting patterns.
 
 ---
 
