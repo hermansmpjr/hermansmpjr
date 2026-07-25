@@ -1,20 +1,30 @@
 # Hi there 👋, I'm Mike Hermans
 
-I design and operate production multi-agent systems, document-intelligence pipelines, and Power Platform automation that turn complex industrial RFQs, specifications, drawings, and quote packages into structured, evidence-backed work.
+I work at the bleeding edge of applied AI in industrial automation — building production multi-agent systems, document intelligence pipelines, and governed automation while most organizations are still experimenting with single agents or chatbots.
+
+My focus is not just using the tools. It is designing systems that stay reliable under real constraints, keep source discipline, and can improve themselves without losing control.
+
+---
+
+## How I Work
+
+I treat platform limitations, messy documents, incomplete requirements, and organizational friction as design inputs rather than blockers. When a tool or process hits a wall, I design around it — with clearer contracts, better evidence handling, meta-level agents, structured handoffs, or an entirely different approach.
+
+The core of my work is making complex industrial RFQs, specifications, drawings, and quote packages legible and actionable through structured, evidence-backed systems. That requires more than prompting. It requires governance, provenance, explicit responsibility boundaries, and a willingness to invest deep work for compounding leverage.
+
+I build both the runtime systems that do the work and the control plane that governs, generates, and evolves them. The goal is always the same: faster review cycles, fewer missed requirements, cleaner handoffs, and processes that get better over time instead of accumulating more debt.
+
+> I'll gladly invest hours or days to save seconds or minutes, because those small gains compound over time. Time is the only resource we can never recover once it's spent.
 
 ---
 
 ## What I Build
 
-I work at the intersection of application engineering, industrial automation, Microsoft 365 / Power Platform, and applied multi-agent AI. The focus is practical impact: faster review cycles, stronger source discipline, fewer missed requirements, cleaner handoffs, and more repeatable quoting and process-improvement workflows.
-
-Key areas:
-- Governed multi-agent orchestration in Microsoft Copilot Studio (runtime fleet + meta/control plane)
-- Document intelligence & RFQ/specification parsing with evidence preservation and structured outputs
-- Power Platform workflow automation (Power Automate, Power BI, Dataverse, SharePoint, Teams)
-- Reusable Skills, instruction libraries, handoff contracts, and agent-authoring toolkits
-- Salesforce-connected quote workflow support and SharePoint case/folder automation
-- Continuous improvement communities and governed idea-to-sustainment processes
+- **Governed multi-agent systems** in Microsoft Copilot Studio with a clear separation between runtime agents (that perform engineering and quoting work) and meta/control-plane agents (that oversee, create, and improve the fleet)
+- **Document intelligence pipelines** that turn messy RFQs and technical specifications into structured, evidence-backed artifacts with source ledgers, conflict reports, and clean handoffs
+- **Power Platform automation** tightly integrated with Salesforce, SharePoint, Teams, and Dataverse for quote workflows, case handling, and process support
+- **Reusable Skills, instruction libraries, and handoff contracts** designed for reliable generative orchestration
+- **Continuous improvement systems** (I.D.E.A. cycle and governed idea-to-sustainment workflows) so improvements can be tested, documented, and scaled without chaos
 
 ---
 
@@ -24,14 +34,14 @@ Key areas:
 
 **I.D.E.A. = Iterate. Demonstrate. Educate. Automate.**
 
-I.D.E.A. is the operating rhythm I use for continuous improvement: experiment with Copilot, Power Automate, Power BI, SharePoint, and related tools, then document and scale what works.
+This is the operating rhythm I use for continuous improvement and for building AI systems that can improve themselves under governance:
 
-- **Iterate** — Identify a problem, opportunity, or hypothesis for improvement
+- **Iterate** — Identify a problem, opportunity, or hypothesis
 - **Demonstrate** — Test the idea with a practical tool or workflow
 - **Educate** — Document what worked, what failed, and what others can reuse
-- **Automate** — Scale the solution when it is reliable, useful, and ready for broader adoption
+- **Automate** — Scale only when it is reliable, useful, and ready for broader adoption
 
-The same cycle underpins the Event-Horizon framework.
+The same cycle underpins the Event-Horizon framework and the way I design self-improving multi-agent systems.
 
 ---
 
@@ -39,24 +49,24 @@ The same cycle underpins the Event-Horizon framework.
 
 ### Governed Multi-Agent Architecture
 
-I design and maintain production multi-agent systems with a clear separation between runtime work and meta-level governance:
+I design production multi-agent systems with a deliberate separation of concerns:
 
-**Runtime agents** handle the actual engineering and quoting work:
-- RFQ / application-engineering orchestration (intake readiness, source diagnostics, engineering packet extraction, BOM/pricing support, compliance matrices, proposal export, CRM case lookup)
-- Electrical and mechanical drawing interpretation with source-grounded extraction and OCR tooling
+**Runtime agents** perform the actual work:
+- RFQ and application-engineering orchestration (intake, source diagnostics, engineering packet extraction, BOM/pricing support, compliance matrices, proposal export, CRM lookup)
+- Electrical and mechanical drawing interpretation with source-grounded extraction and OCR
 - Compliance and traceability reporting
 - Documentation and architecture/routing parent agents
 
-**Meta / control-plane agents** govern, generate, and improve the fleet:
+**Meta / control-plane agents** govern and improve the system:
 - Strategic oversight, routing decisions, hard rules, and promotion authority
-- Programmatic agent creation (agent factory)
-- Knowledge-source discovery, naming, overlap detection, and connect-vs-tool classification
-- Structured intake that produces handoff packets
+- Programmatic agent creation
+- Knowledge-source discovery, naming, overlap detection, and classification
+- Structured intake that produces explicit handoff packets
 - Continuous propose-not-execute evolution monitoring
-- Governed Power Automate flow engineering (checksum-gated create/update)
+- Governed Power Automate flow engineering
 - Design advisory and documentation specialists
 
-The architecture emphasizes source discipline, explicit handoff contracts, approval-gated writes, self-test alignment, and clear responsibility boundaries between agents.
+Everything is built around source discipline, explicit contracts, approval-gated writes, self-test alignment, and clear responsibility boundaries. When the platform has gaps, the architecture is designed to route around them rather than fight them.
 
 ### Document Intelligence & Parsing Pipelines
 Python-centered pipelines that convert customer RFQs and technical specifications into structured, evidence-backed artifacts:
@@ -66,27 +76,22 @@ Python-centered pipelines that convert customer RFQs and technical specification
 - Missing-input and conflict reports
 - Operational run summaries
 
-Emphasis is on deterministic structure, provenance, and clean handoff to downstream agents or human reviewers.
+The emphasis is always on deterministic structure, provenance, and clean handoff — so downstream agents and humans can trust what they receive.
 
 ### Power Platform & Quote Workflow Automation
-Production Power Automate flows that connect CRM cases, SharePoint quote folders, Teams notifications, attachment handling, case-owner updates, and notebook generation. Supporting tooling covers flow lifecycle management, payload serialization guards, and inventory/registry practices.
+Production flows connecting CRM cases, SharePoint quote folders, Teams notifications, attachment handling, and case updates. Supporting patterns for flow lifecycle, payload guards, and inventory management so the automation itself stays maintainable.
 
 ### Skills & Authoring Toolkits
-Reusable Copilot Studio Skills (and the meta-toolkit that authors them) for:
-- Skill, instruction, knowledge-source, and connected-agent description authoring
-- Copy-ready output formatting
-- Child-result integration, deliverable transport, and source lookup patterns
-
-Designed for reliable generative orchestration and consistent agent behavior.
+Reusable Copilot Studio Skills and the meta-tooling that authors them — focused on consistent descriptions, reliable orchestration, child-result integration, and source lookup patterns.
 
 ### Industrial Automation Domain
-Support for engineered material-handling applications involving drives and automation products, VFD motion control, HMI concepts, safety interlocks, diagnostics, and proposal generation for crane and hoist systems.
+Application engineering support for engineered material-handling systems: drives, VFD motion control, HMI concepts, safety interlocks, diagnostics, and proposal generation for crane and hoist applications.
 
 ---
 
 ## Frameworks & Supporting Work
 
-- **Event-Horizon IDEA** — Platform- and domain-neutral framework for building, governing, and evolving AI agent systems using the IDEA cycle (Innovate → Develop → Evaluate → Automate). Provides portable patterns, governance, agent archetypes, and handoff contracts.
+- **Event-Horizon IDEA** — Platform- and domain-neutral framework for building, governing, and evolving AI agent systems using the IDEA cycle. Provides portable patterns, governance, agent archetypes, and handoff contracts.
 
 ---
 
@@ -144,10 +149,6 @@ Electrical engineer focused on the intersection of application engineering, indu
 **Bachelor of Science in Electrical Engineering** — May 2017  
 Milwaukee School of Engineering (MSOE) & Lübeck University of Applied Sciences (Germany)  
 Dual-degree exchange program (2015–2016). Senior design: home automated lighting system with smartphone control and learned lighting patterns.
-
----
-
-> I'll gladly invest hours or days to save seconds or minutes, because those small gains compound over time. Time is the only resource we can never recover once it's spent.
 
 ---
 
