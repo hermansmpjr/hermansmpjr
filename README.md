@@ -1,24 +1,22 @@
 # Hi there 👋, I'm Mike Hermans
 
-**Senior Engineer, Applications @ Magnetek, a Columbus McKinnon company**
+**Senior Application Engineer @ Magnetek (Columbus McKinnon)**
 
-Building production-oriented AI agent systems, intelligent automation, and document-intelligence workflows for industrial application engineering.
+I design and operate production multi-agent systems, document-intelligence pipelines, and Power Platform automation that turn complex industrial RFQs, specifications, drawings, and quote packages into structured, evidence-backed work for application engineers.
 
 ---
 
 ## What I Build
 
-I work at the intersection of application engineering, industrial automation, Microsoft 365, and applied AI. My focus is turning complex RFQs, specifications, drawings, emails, and quote-support documents into structured, evidence-backed outputs that engineers and business users can actually use.
+I work at the intersection of application engineering, industrial automation (crane & hoist control systems), Microsoft 365 / Power Platform, and applied multi-agent AI. The focus is practical impact: faster review cycles, stronger source discipline, fewer missed requirements, cleaner handoffs, and more repeatable quoting and process-improvement workflows.
 
-Key capabilities I develop and support:
-- Document intelligence and RFQ/specification parsing pipelines
-- Governed multi-agent orchestration in Microsoft Copilot Studio
-- Power Platform workflow automation (Power Automate, Power BI, Dataverse, SharePoint, Teams, Loop)
-- SharePoint + GitHub documentation and knowledge systems
-- Salesforce-connected quote workflow support
-- Repeatable improvement workflows and internal communities of practice
-
-The goal is practical impact: faster review cycles, stronger source discipline, fewer missed requirements, cleaner handoffs, and more repeatable quoting, documentation, and process-improvement workflows.
+Key areas:
+- Governed multi-agent orchestration in Microsoft Copilot Studio (runtime fleet + meta/control plane)
+- Document intelligence & RFQ/specification parsing with evidence preservation and structured outputs
+- Power Platform workflow automation (Power Automate, Power BI, Dataverse, SharePoint, Teams)
+- Reusable Skills, instruction libraries, handoff contracts, and agent-authoring toolkits
+- Salesforce-connected quote workflow support and SharePoint case/folder automation
+- Internal communities of practice (Better Way Builders) and governed idea-to-sustainment processes
 
 ---
 
@@ -35,124 +33,106 @@ I.D.E.A. is the operating rhythm behind Better Way Builders, an internal improve
 - **Educate** — Document what worked, what failed, and what others can reuse
 - **Automate** — Scale the solution when it is reliable, useful, and ready for broader adoption
 
+The same cycle underpins the Event-Horizon framework and the agent-fleet-os patterns used across the MAG fleet.
+
 ---
 
 ## Current Focus Areas
 
-### Governed Multi-Agent Architecture
-I design governed multi-agent systems in Microsoft Copilot Studio for industrial workflows. This includes governance layers, agent factories, knowledge discovery, knowledge mapping, and GitHub-centered documentation with controlled publishing.
+### Two-Layer Multi-Agent Architecture
 
-The objective is to move from one-off agent experiments to governed, documented, reusable agent systems.
+I maintain a governed multi-agent system with a clear separation of concerns:
 
-Current architecture patterns include:
-- Governor-led routing and review
-- Agent factory support for repeatable agent creation
-- Knowledge discovery and source mapping
-- Controlled documentation and publication
-- Agent instruction libraries, runbooks, and reusable process specs
+**Production Runtime (MAG-Fleet)**  
+The agents that perform customer/engineering work:
+- **MAG-AutoPilot-AE-CS** — RFQ / application-engineering orchestrator (intake readiness, source diagnostics, engineering packet extraction, BOM/pricing support, compliance matrix, proposal export, Salesforce case lookup, etc.)
+- **MAG-Electrical-Drawing-Interpreter** — Source-grounded extraction from electrical/crane drawings and motor data sheets (includes a dedicated Python OCR tool)
+- **MAG-Compliance-Documenter** — Internal compliance & traceability reporting
+- **MAG-Fleet-Documenter** & **MAG-Dev-Architect** — Documentation and architecture/routing parent for the runtime layer
+
+**Meta / Control Plane (MAG-Fleet-Meta)**  
+The agents that govern, generate, and improve the fleet:
+- **MAG-Fleet-Governor** — Strategic oversight, routing decisions, hard rules, promotion authority
+- **MAG-Agent-Factory** — Programmatic creation of new governed agents
+- **MAG-Knowledge-Discovery** & **MAG-Knowledge-Mapper** — Source discovery, naming, overlap detection, connect-vs-tool classification
+- **MAG-Agent-Intake-Guide** — Published user-facing intake → structured handoff packets
+- **MAG-Self-Evolution-Monitor** — Continuous propose-not-execute evolution monitoring
+- **MAG-PA-Flow-Engineer** — Checksum-gated Power Automate CreateFlow/UpdateFlow engineering child
+- **MAG-Fleet-Architect** & **MAG-Fleet-Meta-Documenter** — Design advisory and meta-layer documentation
+
+The architecture emphasizes source discipline, explicit handoff contracts (ChildResult, IntakeHandoffPacket, EvolutionProposalPacket, etc.), approval-gated writes, and self-test alignment.
 
 ### Document Intelligence & Parsing Pipelines
-I build focused Python-based pipelines that convert customer-provided RFQs and technical specifications into structured, evidence-backed outputs, including:
-- Concise briefs for application engineers
-- Canonical JSON artifacts
+Python-centered pipelines that convert customer RFQs and technical specifications into structured, evidence-backed artifacts:
+- Concise engineer briefs
+- Canonical JSON / knowledge packs
 - Source ledgers and evidence references
 - Missing-input and conflict reports
 - Operational run summaries
 
-The emphasis is evidence preservation, deterministic structure, source traceability, and clean handoff to downstream agents or human reviewers.
+Emphasis remains on deterministic structure, provenance, and clean handoff to downstream agents or human reviewers (MAG-Auto-Parse methodology).
 
-### Application Engineering Agents
-I develop Copilot Studio agent patterns that support:
-- RFQ intake readiness
-- Source diagnostics
-- Engineering packet extraction
-- Compliance matrix support
-- Quote-pack reconciliation
-- Proposal assistance
-- Salesforce and SharePoint source discovery
-- Customer-safe output gating
+### Power Platform & Quote Workflow Automation
+A suite of production Power Automate flows (SCA series) that connect Salesforce cases, SharePoint quote folders, Teams notifications, attachment handling, case-owner updates, and notebook generation. Additional governed tooling covers flow lifecycle, payload serialization guards, and inventory/registry management.
 
-Core design principles include source discipline, routing control, missing-input handling, human review checkpoints, and structured output contracts.
+### Skills & Authoring Toolkits
+Reusable Copilot Studio Skills (and the meta-toolkit that authors them) for:
+- Skill, instruction, knowledge-source, and connected-agent description authoring
+- Copy-ready output formatting
+- Child-result integration, deliverable transport, Salesforce case source lookup, and more
 
-### RFQ & Quote Workflow Automation
-I build and maintain automations that connect quoting work across Salesforce, SharePoint, Teams, Outlook, Power Automate, Power BI, and Python-based document processing.
+These live in the fleet repos and are designed for reliable generative orchestration.
 
-Typical use cases include quote-folder creation, case-to-folder linking, engineering packet generation, proposal support, recurring reporting, dashboarding, and quote-pack organization.
+### Industrial Automation Domain
+Support for engineered material-handling applications involving Magnetek drives and automation products, VFD motion control, HMI concepts, safety interlocks, diagnostics, and proposal generation for crane and hoist systems.
 
-### Industrial Automation Support
-I support engineered industrial automation work involving crane and hoist control systems, Magnetek drives and automation products, VFD motion control, HMI concepts, safety interlocks, diagnostics, and engineered material-handling applications.
+---
+
+## Frameworks & Supporting Work
+
+- **Event-Horizon IDEA** — Platform- and domain-neutral framework for building, governing, and evolving AI agent systems using the IDEA cycle (Innovate → Develop → Evaluate → Automate). Provides portable patterns, governance, agent archetypes, and handoff contracts.
+- **agent-fleet-os** — Implementable platform-neutral OS (schemas, role archetypes, validators, pipelines, adapters for Copilot Studio / Grok / others). Magnetek RFQ is the reference domain adapter.
+- **Grok + Copilot Studio integration patterns** — Documentation and guides for using xAI Grok alongside Microsoft Copilot Studio in industrial automation contexts.
 
 ---
 
 ## Tech Stack
 
-### Core Development
-- Python
-- PowerShell
-- JSON schemas
-- Markdown
-- Structured output contracts
+**Core**  
+Python · PowerShell · JSON Schema · Markdown · Structured output contracts · GitHub as source of truth
 
-### Microsoft 365 / Power Platform
-- Microsoft Copilot Studio
-- Power Automate
-- Power BI
-- Dataverse
-- SharePoint
-- OneDrive
-- Teams
-- Loop
-- Outlook
+**Microsoft 365 / Power Platform**  
+Copilot Studio · Power Automate · Power BI · Dataverse · SharePoint · Teams · Outlook · Loop
 
-### AI & Document Intelligence
-- Multi-agent orchestration
-- Evidence-backed extraction
-- Prompt and instruction design
-- RFQ/specification parsing
-- Compliance matrix support
-- xAI Grok + Microsoft Copilot Studio integration patterns
-- Multi-LLM workflow experimentation
+**AI & Document Intelligence**  
+Multi-agent orchestration · Evidence-backed extraction · Prompt & instruction design · RFQ/spec parsing · Compliance matrix support · Multi-LLM experimentation (including Grok)
 
-### Industrial Automation
-- PLC based overhead crane motion control
-- Magnetek crane and hoist systems
-- VFD-based motion control
-- HMI and diagnostics
-- Safety interface
-- Automation sequence support
-- Engineered material-handling proposal generation
-
----
-
-## Key Initiatives
-
-### Better Way Builders
-An internal improvement community focused on helping employees experiment with Microsoft 365 tools, document what works, and scale practical improvements across the organization.
-
-Better Way Builders is about making improvement visible, repeatable, and teachable.
-
-### Governed Idea-to-Sustainment Workflow
-A structured methodology for moving ideas from initial concept through documentation, validation, controlled publication, and sustained operation.
-
-GitHub serves as the canonical source of truth for governed process documentation, with controlled publication to internal SharePoint knowledge libraries.
-
-### Multi-Agent Systems & Document Intelligence
-Purpose-built patterns for governed agent orchestration and intelligent document processing tailored to complex industrial quoting, technical review, and specification workflows.
+**Industrial Automation**  
+PLC-based overhead crane motion control · Magnetek crane & hoist systems · VFD motion control · HMI & diagnostics · Safety interfaces · Engineered material-handling proposals
 
 ---
 
 ## Key Repositories
 
-### Multi-Agent Systems & Governance
-- [Multi-Agent Production Environment](https://github.com/hermansmpjr/MAG-Fleet)
-- [Validation & Testing Sandbox](https://github.com/hermansmpjr/MAG-FLEET-DEV)
-- [Governance & Agent Factory Layer](https://github.com/hermansmpjr/MAG-Fleet-Meta)
+Most of the MAG work is private (internal Magnetek / CMCO use). Public-facing profile and supporting frameworks:
 
-### Featured Work
-- **Document Intelligence Pipeline** — RFQ/specification parsing engine centered on evidence preservation, structured JSON, engineer briefs, and run summaries
-- **Multi-Agent Governance Documentation** — Documentation standards, registry mapping, routing rules, runbooks, process specs, and agent passports
-- **Better Way Builders / I.D.E.A.** — Community and methodology for employee-led improvement, experimentation, documentation, and automation
-- **Grok + Copilot Studio Integration** — Patterns and documentation for using xAI Grok with Microsoft Copilot Studio in industrial automation contexts
+| Repository | Purpose |
+|---|---|
+| [hermansmpjr](https://github.com/hermansmpjr/hermansmpjr) | This profile |
+| [MAG-Fleet](https://github.com/hermansmpjr/MAG-Fleet) | Production runtime — agent instructions, skills, routing, Power Automate inventory |
+| [MAG-Fleet-Meta](https://github.com/hermansmpjr/MAG-Fleet-Meta) | Meta / control plane — Governor, Factory, Knowledge pipeline, governance, evolution |
+| [MAG-FLEET-DEV](https://github.com/hermansmpjr/MAG-FLEET-DEV) | Staging / validation sandbox |
+| [event-horizon](https://github.com/hermansmpjr/event-horizon) | IDEA cycle framework (platform- & domain-neutral) |
+| [agent-fleet-os](https://github.com/hermansmpjr/agent-fleet-os) | Platform-neutral multi-agent OS (schemas, roles, validators) |
+| [grok-copilot-studio-integration](https://github.com/hermansmpjr/grok-copilot-studio-integration) | Grok ↔ Copilot Studio integration patterns |
+
+---
+
+## Key Initiatives
+
+- **Better Way Builders / I.D.E.A.** — Internal community and methodology for employee-led improvement, experimentation, documentation, and automation.
+- **Governed Idea-to-Sustainment Workflow** — Structured path from concept through documentation, validation, controlled publication, and sustained operation (GitHub as canonical source, controlled SharePoint publication).
+- **Self-Improving Multi-Agent Fleet** — Agents that can propose, generate, and evolve other agents under strong governance, source discipline, and approval gates.
 
 ---
 
