@@ -135,10 +135,6 @@ Salesforce · AutoCAD · Visio · VHDL · C/C++ · MATLAB · Multisim · Embedde
 
 | Repository | Purpose |
 |---|---|
-| [hermansmpjr](https://github.com/hermansmpjr/hermansmpjr) | This profile |
-| [MAG-Fleet](https://github.com/hermansmpjr/MAG-Fleet) | Production runtime — agent instructions, skills, routing, automation inventory |
-| [MAG-Fleet-Meta](https://github.com/hermansmpjr/MAG-Fleet-Meta) | Meta / control plane — governance, agent factory, knowledge pipeline, evolution |
-| [MAG-FLEET-DEV](https://github.com/hermansmpjr/MAG-FLEET-DEV) | Staging / validation sandbox |
 | [event-horizon](https://github.com/hermansmpjr/event-horizon) | IDEA cycle framework (platform- & domain-neutral) |
 
 ---
