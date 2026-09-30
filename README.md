@@ -1,18 +1,18 @@
-# Hi there 👋, I'm Mike Hermans
+# Hi there, I'm Mike Hermans
 
-I work at the bleeding edge of applied AI in industrial automation — building production multi-agent systems, document intelligence pipelines, and governed automation while most organizations are still experimenting with single agents or chatbots.
+Senior Application Engineer at Magnetek (Columbus McKinnon).
 
-My focus is not just using the tools. It is designing systems that stay reliable under real constraints, keep source discipline, and can improve themselves without losing control.
+I build production tools that help application engineers turn RFQs, specifications, and drawings into governed quotes: multi-agent systems, document-intelligence pipelines, Power Platform automation, Power BI business tools, and Python support systems for industrial automation.
+
+The work is not chatbots. It is source discipline, explicit contracts, and systems that stay reliable when the documents are messy and the platform has gaps.
 
 ---
 
 ## How I Work
 
-I treat platform limitations, messy documents, incomplete requirements, and organizational friction as design inputs rather than blockers. When a tool or process hits a wall, I design around it — with clearer contracts, better evidence handling, meta-level agents, structured handoffs, or an entirely different approach.
+I treat platform limits, incomplete requirements, and organizational friction as design inputs. When a tool hits a wall, I design around it — clearer contracts, better evidence handling, a different runtime, or a meta layer that governs the first layer.
 
-The core of my work is making complex industrial RFQs, specifications, drawings, and quote packages legible and actionable through structured, evidence-backed systems. That requires more than prompting. It requires governance, provenance, explicit responsibility boundaries, and a willingness to invest deep work for compounding leverage.
-
-I build both the runtime systems that do the work and the control plane that governs, generates, and evolves them. The goal is always the same: faster review cycles, fewer missed requirements, cleaner handoffs, and processes that get better over time instead of accumulating more debt.
+I will invest hours to save minutes when those minutes compound across every quote.
 
 > I'll gladly invest hours or days to save seconds or minutes, because those small gains compound over time. Time is the only resource we can never recover once it's spent.
 
@@ -20,11 +20,12 @@ I build both the runtime systems that do the work and the control plane that gov
 
 ## What I Build
 
-- **Governed multi-agent systems** in Microsoft Copilot Studio with a clear separation between runtime agents (that perform engineering and quoting work) and meta/control-plane agents (that oversee, create, and improve the fleet)
-- **Document intelligence pipelines** that turn messy RFQs and technical specifications into structured, evidence-backed artifacts with source ledgers, conflict reports, and clean handoffs
-- **Power Platform automation** tightly integrated with Salesforce, SharePoint, Teams, and Dataverse for quote workflows, case handling, and process support
-- **Reusable Skills, instruction libraries, and handoff contracts** designed for reliable generative orchestration
-- **Continuous improvement systems** (I.D.E.A. cycle and governed idea-to-sustainment workflows) so improvements can be tested, documented, and scaled without chaos
+- **Grok-native application-engineering copilots** that read RFQs, drawings, and house templates on disk and produce the Word, workbook, and customer PDF under engineer sign-off
+- **Governed multi-agent fleets** in Microsoft Copilot Studio — runtime agents that do the engineering work, and a meta/control plane that oversees, authors, and improves them
+- **Python document-intelligence pipelines** that turn RFQs and specs into structured, evidence-backed packets with source ledgers and conflict reports
+- **Power Automate and Power BI** wired to Salesforce, SharePoint, Teams, and Dataverse for quote workflow, case handling, and process mining
+- **Reusable skills, instruction libraries, and handoff contracts** so orchestration stays reliable across runtimes
+- **Continuous improvement** through the I.D.E.A. cycle so only proven work gets scaled
 
 ---
 
@@ -34,64 +35,28 @@ I build both the runtime systems that do the work and the control plane that gov
 
 **I.D.E.A. = Iterate. Demonstrate. Educate. Automate.**
 
-This is the operating rhythm I use for continuous improvement and for building AI systems that can improve themselves under governance:
-
 - **Iterate** — Identify a problem, opportunity, or hypothesis
-- **Demonstrate** — Test the idea with a practical tool or workflow
+- **Demonstrate** — Test it with a practical tool or workflow
 - **Educate** — Document what worked, what failed, and what others can reuse
-- **Automate** — Scale only when it is reliable, useful, and ready for broader adoption
+- **Automate** — Scale only when it is reliable and ready
 
-The same cycle underpins the Event-Horizon framework and the way I design self-improving multi-agent systems.
-
----
-
-## Current Focus Areas
-
-### Governed Multi-Agent Architecture
-
-I design production multi-agent systems with a deliberate separation of concerns:
-
-**Runtime agents** perform the actual work:
-- RFQ and application-engineering orchestration (intake, source diagnostics, engineering packet extraction, BOM/pricing support, compliance matrices, proposal export, CRM lookup)
-- Electrical and mechanical drawing interpretation with source-grounded extraction and OCR
-- Compliance and traceability reporting
-- Documentation and architecture/routing parent agents
-
-**Meta / control-plane agents** govern and improve the system:
-- Strategic oversight, routing decisions, hard rules, and promotion authority
-- Programmatic agent creation
-- Knowledge-source discovery, naming, overlap detection, and classification
-- Structured intake that produces explicit handoff packets
-- Continuous propose-not-execute evolution monitoring
-- Governed Power Automate flow engineering
-- Design advisory and documentation specialists
-
-Everything is built around source discipline, explicit contracts, approval-gated writes, self-test alignment, and clear responsibility boundaries. When the platform has gaps, the architecture is designed to route around them rather than fight them.
-
-### Document Intelligence & Parsing Pipelines
-Python-centered pipelines that convert customer RFQs and technical specifications into structured, evidence-backed artifacts:
-- Concise engineer briefs
-- Canonical JSON / knowledge packs
-- Source ledgers and evidence references
-- Missing-input and conflict reports
-- Operational run summaries
-
-The emphasis is always on deterministic structure, provenance, and clean handoff — so downstream agents and humans can trust what they receive.
-
-### Power Platform & Quote Workflow Automation
-Production flows connecting CRM cases, SharePoint quote folders, Teams notifications, attachment handling, and case updates. Supporting patterns for flow lifecycle, payload guards, and inventory management so the automation itself stays maintainable.
-
-### Skills & Authoring Toolkits
-Reusable Copilot Studio Skills and the meta-tooling that authors them — focused on consistent descriptions, reliable orchestration, child-result integration, and source lookup patterns.
-
-### Industrial Automation Domain
-Application engineering support for engineered material-handling systems: drives, VFD motion control, HMI concepts, safety interlocks, diagnostics, and proposal generation for crane and hoist applications.
+The same cycle underpins Event-Horizon and the way the fleets evolve under governance.
 
 ---
 
-## Frameworks & Supporting Work
+## Current Focus
 
-- **Event-Horizon IDEA** — Platform- and domain-neutral framework for building, governing, and evolving AI agent systems using the IDEA cycle. Provides portable patterns, governance, agent archetypes, and handoff contracts.
+### Dual runtime, one discipline
+Copilot Studio remains the Microsoft 365 fleet. Grok Build is the on-disk AE copilot that can read local templates, quote files, and catalogs. Same rules on both: evidence for every material claim, cost is never labeled as a customer net, and the engineer owns send. The two runtimes do not write into each other.
+
+### Document intelligence
+Python-centered parsing that produces engineer briefs, canonical packets, source ledgers, and missing-input reports. Downstream agents and humans should be able to trust the handoff.
+
+### Power Platform
+Production flows for CRM cases, SharePoint quote folders, Teams notifications, and Power BI process views. The automation itself is versioned and guarded.
+
+### Industrial automation domain
+Application engineering for engineered material-handling controls: drives, VFD motion control, HMI concepts, safety interfaces, diagnostics, and proposal generation for crane and hoist applications.
 
 ---
 
@@ -101,46 +66,29 @@ Application engineering support for engineered material-handling systems: drives
 Python · PowerShell · JSON Schema · Markdown · Structured output contracts · GitHub as source of truth
 
 **Microsoft 365 / Power Platform**  
-Copilot Studio · Power Automate · Power BI · Dataverse · SharePoint · Teams · Outlook · Loop
+Copilot Studio · Power Automate · Power BI · Dataverse · SharePoint · Teams · Outlook
 
-**AI & Document Intelligence**  
-Multi-agent orchestration · Evidence-backed extraction · Prompt & instruction design · RFQ/spec parsing · Compliance matrix support · Multi-LLM experimentation
+**AI and document intelligence**  
+Multi-agent orchestration (Copilot Studio and Grok) · Evidence-backed extraction · RFQ/spec parsing · Instruction and skill design
 
-**Industrial Automation**  
-PLC-based overhead crane motion control · VFD motion control · HMI & diagnostics · Safety interfaces · Engineered material-handling proposals
+**Industrial automation**  
+PLC-based overhead crane motion control · VFD motion control · HMI and diagnostics · Safety interfaces · Engineered material-handling proposals
 
-**Earlier tools & languages**  
+**Earlier tools**  
 Salesforce · AutoCAD · Visio · VHDL · C/C++ · MATLAB · Multisim · Embedded systems
-
----
-
-## Key Repositories
-
-| Repository | Purpose |
-|---|---|
-| [event-horizon](https://github.com/hermansmpjr/event-horizon) | IDEA cycle framework (platform- & domain-neutral) |
-
----
-
-## Key Initiatives
-
-- **I.D.E.A. / Continuous Improvement** — Methodology for experimentation, documentation, and scaling practical improvements with Microsoft 365 and AI tools.
-- **Governed Idea-to-Sustainment Workflow** — Structured path from concept through documentation, validation, controlled publication, and sustained operation (GitHub as canonical source).
-- **Self-Improving Multi-Agent Fleet** — Agents that can propose, generate, and evolve other agents under strong governance, source discipline, and approval gates.
 
 ---
 
 ## About Me
 
-Electrical engineer focused on the intersection of application engineering, industrial automation, and applied AI. I build governed multi-agent systems, intelligent document processing, and workflow automation that improve source discipline, accelerate review cycles, and make complex quoting and engineering work more repeatable.
+Electrical engineer at the intersection of application engineering, industrial automation, and applied AI. I build the systems that make RFQ-to-proposal work repeatable without inventing numbers or bypassing the engineer who signs the letter.
 
 **Core strengths**
-- End-to-end RFQ-to-proposal workflows (intake, source diagnostics, engineering packets, compliance, BOM/pricing support, proposal generation)
-- Production multi-agent orchestration in Microsoft Copilot Studio (runtime fleet + meta/control plane)
-- Power Platform automation (Power Automate, Power BI, Dataverse, SharePoint, Teams) integrated with Salesforce
-- Document intelligence pipelines with evidence preservation and structured outputs
-- Process improvement communities and governed idea-to-sustainment methodologies
-- Application engineering and technical support for crane & hoist control systems, VFDs, and engineered material-handling solutions
+- End-to-end RFQ-to-proposal workflows
+- Production multi-agent orchestration (Copilot Studio fleet and Grok-native AE copilot)
+- Power Platform automation and Power BI analysis tools
+- Document intelligence with evidence preservation
+- Application engineering support for crane and hoist control systems
 
 ---
 
