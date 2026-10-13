@@ -20,10 +20,11 @@ I will invest hours to save minutes when those minutes compound across every quo
 
 ## What I Build
 
-- **Grok-native application-engineering copilots** that read RFQs, drawings, and house templates on disk and produce the Word, workbook, and customer PDF under engineer sign-off
+- **Grok-native application-engineering copilots** (repo-as-agent and CLI) that read RFQs, drawings, and house templates on disk and produce the Word, workbook, and customer PDF under engineer sign-off
 - **Governed multi-agent fleets** in Microsoft Copilot Studio — runtime agents that do the engineering work, and a meta/control plane that oversees, authors, and improves them
 - **Python document-intelligence pipelines** that turn RFQs and specs into structured, evidence-backed packets with source ledgers and conflict reports
 - **Power Automate and Power BI** wired to Salesforce, SharePoint, Teams, and Dataverse for quote workflow, case handling, and process mining
+- **Grok CLI tooling** for Word, Excel, Power BI, Power Automate, multi-machine sync, skills, and governed workflows
 - **Reusable skills, instruction libraries, and handoff contracts** so orchestration stays reliable across runtimes
 - **Continuous improvement** through the I.D.E.A. cycle so only proven work gets scaled
 
@@ -40,20 +41,20 @@ I will invest hours to save minutes when those minutes compound across every quo
 - **Educate** — Document what worked, what failed, and what others can reuse
 - **Automate** — Scale only when it is reliable and ready
 
-The same cycle underpins Event-Horizon and the way the fleets evolve under governance.
+The same cycle underpins portable agent frameworks (Event-Horizon style) and the way the fleets evolve under governance.
 
 ---
 
 ## Current Focus
 
 ### Dual runtime, one discipline
-Copilot Studio remains the Microsoft 365 fleet. Grok Build is the on-disk AE copilot that can read local templates, quote files, and catalogs. Same rules on both: evidence for every material claim, cost is never labeled as a customer net, and the engineer owns send. The two runtimes do not write into each other.
+Copilot Studio remains the Microsoft 365 connected fleet. Grok Build and Grok CLI are the on-disk / multi-machine AE copilots that can read local templates, quote files, catalogs, and Office documents. Same rules on both: evidence for every material claim, cost is never labeled as a customer net, and the engineer owns send. The two runtimes do not write into each other.
 
 ### Document intelligence
 Python-centered parsing that produces engineer briefs, canonical packets, source ledgers, and missing-input reports. Downstream agents and humans should be able to trust the handoff.
 
-### Power Platform
-Production flows for CRM cases, SharePoint quote folders, Teams notifications, and Power BI process views. The automation itself is versioned and guarded.
+### Power Platform and Grok CLI
+Production flows for CRM cases, SharePoint quote folders, Teams notifications, and Power BI process views. Grok CLI patterns for editing Word, Excel, Power BI, and Power Automate under the same evidence and governance rules. The automation itself is versioned and guarded.
 
 ### Industrial automation domain
 Application engineering for engineered material-handling controls: drives, VFD motion control, HMI concepts, safety interfaces, diagnostics, and proposal generation for crane and hoist applications.
@@ -69,7 +70,7 @@ Python · PowerShell · JSON Schema · Markdown · Structured output contracts �
 Copilot Studio · Power Automate · Power BI · Dataverse · SharePoint · Teams · Outlook
 
 **AI and document intelligence**  
-Multi-agent orchestration (Copilot Studio and Grok) · Evidence-backed extraction · RFQ/spec parsing · Instruction and skill design
+Multi-agent orchestration (Copilot Studio and Grok) · Grok CLI / Build (repo-as-agent, skills, multi-machine) · Evidence-backed extraction · RFQ/spec parsing · Instruction and skill design
 
 **Industrial automation**  
 PLC-based overhead crane motion control · VFD motion control · HMI and diagnostics · Safety interfaces · Engineered material-handling proposals
@@ -85,7 +86,7 @@ Electrical engineer at the intersection of application engineering, industrial a
 
 **Core strengths**
 - End-to-end RFQ-to-proposal workflows
-- Production multi-agent orchestration (Copilot Studio fleet and Grok-native AE copilot)
+- Production multi-agent orchestration (Copilot Studio fleet and Grok-native AE copilot / CLI)
 - Power Platform automation and Power BI analysis tools
 - Document intelligence with evidence preservation
 - Application engineering support for crane and hoist control systems
